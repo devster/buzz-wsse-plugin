@@ -32,7 +32,7 @@ Basic usage
 -----------
 
 ```php
-require vendor/autoload.php
+require 'vendor/autoload.php'
 
 use Buzz\Browser;
 use Devster\Buzz\Listener\WsseAuthListener;
@@ -54,7 +54,7 @@ Customization
 
 All the plugin is configurable: the way to generate the nonce, the timestamp and also the password digest.
 
-```
+```php
 use Buzz\Browser;
 use Buzz\Message\RequestInterface;
 use Devster\Buzz\Listener\WsseAuthListener;
@@ -91,7 +91,6 @@ Unit tests are made with atoum.
 
 ```shell
 composer install --dev
-
 ./vendor/bin/atoum
 ```
 
