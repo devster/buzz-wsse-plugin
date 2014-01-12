@@ -1,0 +1,28 @@
+{
+    "name": "devster/buzz-wsse-plugin",
+    "description": "Buzz plugin to manage WSSE authentication",
+    "keywords": ["buzz", "plugin", "wsse", "api", "rest", "authentication"],
+    "homepage": "https://github.com/devster/buzz-wsse-plugin",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeremy Perret",
+            "email": "jeremy@devster.org",
+            "homepage": "https://github.com/devster"
+        }
+    ],
+
+    "autoload": {
+        "psr-0": { "Devster\\Buzz\\Listener": "src/" }
+    },
+
+    "require": {
+        "php": ">=5.3.3"
+    },
+
+    "require-dev": {
+        "kriswallsmith/buzz": "dev-master",
+        "atoum/atoum": "dev-master"
+    }
+}
